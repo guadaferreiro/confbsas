@@ -37,7 +37,7 @@
     margin: 6px;
 }
 
-.box .flex-end {
+.flex-end {
     justify-content: flex-end;
     align-content: center;
 }

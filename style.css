@@ -14,7 +14,6 @@
     background-position: center;
     background-size: cover;
     height: 600px;
-
 }
 
 .mask{
@@ -23,7 +22,7 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.contai-ner {
+.box {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -38,7 +37,7 @@
     margin: 6px;
 }
 
-.contai-ner.flex-end {
+.box .flex-end {
     justify-content: flex-end;
     align-content: center;
 }

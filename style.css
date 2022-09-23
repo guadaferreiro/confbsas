@@ -82,6 +82,12 @@ footer {
         font-size: 12px ;
     }
 
+    .button {
+        width: 120px;
+        height: 30px;
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (min-width: 560px) and (max-width: 768px) {
@@ -90,6 +96,12 @@ footer {
     }
 
     .card-text {
+        font-size: 14px;
+    }
+
+    .button {
+        width: 135px;
+        height: 35px;
         font-size: 14px;
     }
 }

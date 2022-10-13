@@ -26,7 +26,7 @@
                         <li class="nav-item"><a class="nav-link" href="#oradores">Los oradores</a> </li>
                         <li class="nav-item"><a class="nav-link" href="#lugar">El lugar y la fecha</a> </li>
                         <li class="nav-item"><a class="nav-link" href="#orador">Conviértete en orador</a> </li>
-                        <li class="nav-item"><a class="nav-link text-success" href="#">Compar tickets</a> </li>
+                        <li class="nav-item"><a class="nav-link text-success" href="#tickets">Compar tickets</a> </li>
                     </ul>
                 </div>
             </div>
@@ -111,7 +111,7 @@
                 <p class="mt-3 text-center">Anótate como orador para dar una <span class="decoration">charla ignite</span>. Cuéntanos de qué quieres hablar!</p>
             </div>
 
-            <div class="container">
+            <div class="container mb-5">
                 <form class="row justify-content-center">
                     <div class="col-lg-4 col-md-6">
                         <label for="nombre" class="form-label"></label>
@@ -134,6 +134,87 @@
                 </form>
             </div>
         </div>
+
+        <div id="tickets">
+            <div class="row h-100 cards-tickets mx-auto justify-content-center align-items-center text-center ">
+                <div class="col-lg-4 col-md-4">
+                    <div class="card border-primary rounded-0">
+                        <div class="card-body">
+                            <h3 class="fs-5 card-title fw-semibold mt-2">Estudiante</h3>
+                            <p> Tienen descuento de</p>
+                            <p class="fw-bold">80%</p>
+                            <p class="card-text">*presentar documentación</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <div class="card border-success rounded-0">
+                        <div class="card-body">
+                            <h3 class="fs-5 card-title fw-semibold mt-2">Trainee</h3>
+                            <p> Tienen descuento de</p>
+                            <p class="fw-bold">50%</p>
+                            <p class="card-text">*presentar documentación</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <div class="card border-warning rounded-0">
+                        <div class="card-body">
+                            <h3 class="fs-5 card-title fw-semibold mt-2">Junior</h3>
+                            <p> Tienen descuento de</p>
+                            <p class="fw-bold">15%</p>
+                            <p class="card-text">*presentar documentación</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p class="text-center fs-5 mb-0 mt-4">VENTA</p>
+                <h2 class="text-center fs-2 fw-semibold">VALOR DE TICKETS $200</h2>
+            </div>
+    
+            <div class="container form mb-5">
+                <form class="row g-3">
+                    <div class="col-lg-6 col-md-6">
+                        <label for="nombre" class="form-label"></label>
+                        <input type="text" class="form-control" placeholder="Nombre" id="nombre">
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <label for="apellido" class="form-label"></label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                    </div>
+                    <div class="col-12">
+                        <label for="Email" class="form-label"></label>
+                        <input type="email" class="form-control" id="Email" placeholder="Correo">
+                    </div>
+    
+                    <div class="col-lg-6 col-md-6">
+                        <label for="cantidad" class="form-label">Cantidad</label>
+                        <input type="number" class="form-control" id="cantidad" placeholder="Cantidad">
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <label for="categoria" class="form-label">Estudiante</label>
+                        <select id="categoria" class="form-select">
+                            <option selected>Estudiante</option>
+                            <option> Trainee </option>
+                            <option> Junior </option>
+                        </select>
+                    
+                    </div>
+    
+                    <div class="col-md-6">
+                        <button type="submit" class="btn-form btn btn-success">Borrar</button>
+                    </div>
+                    <div class="col-md-6">
+                        <button type="submit" class="btn-form btn btn-success">Resumen</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
     </main>
 
     <footer class="h-100">

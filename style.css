@@ -47,6 +47,12 @@
     height: 600px;
 }
 
+.cards-tickets {
+    margin-top: 90px;
+    width: 60%;
+    height: 600px;
+}
+
 .card-text{
     font-size: 0.7em;
 }
@@ -54,6 +60,14 @@
 .decoration{
     text-decoration: underline;
     text-decoration-style: dotted;
+}
+
+.form{
+    width: 800px;
+}
+
+.btn-form {
+    width: 100%;
 }
 
 form > p {

@@ -48,7 +48,7 @@
 }
 
 .cards-tickets {
-    margin-top: 90px;
+    margin-top: 40px;
     width: 60%;
     height: 600px;
 }
@@ -78,7 +78,6 @@ form > p {
 footer {
     background-color: #1D4B65;
     color: white;
-    height: 65px;
     font-size: 13px;
 }
 

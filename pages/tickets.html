@@ -86,7 +86,7 @@
                     </div>
                     <div class="col-10">
                         <label for="Email" class="form-label"></label>
-                        <input type="email" class="form-control" id="Email" placeholder="Correo">
+                        <input type="email" class="form-control" id="email" placeholder="Correo">
                     </div>
     
                     <div class="col-lg-5 col-md-5" id="cantidad">
@@ -94,11 +94,12 @@
                         <input type="text" class="form-control" id="cant" placeholder="Cantidad">
                     </div>
                     <div class="col-lg-5 col-md-5" id="categoria">
-                        <label for="categorias" class="form-label">Estudiante</label>
+                        <label for="categorias" class="form-label">Categoria</label>
                         <select id="categorias" class="form-select">
-                            <option selected id="estudiante">Estudiante</option>
-                            <option id="trainee"> Trainee </option>
-                            <option id="junior"> Junior </option>
+                            <option selected disabled>Seleccione...</option>
+                            <option value="estudiante">Estudiante</option>
+                            <option value="trainee"> Trainee </option>
+                            <option value="junior"> Junior </option>
                         </select>
                     
                     </div>
@@ -107,7 +108,7 @@
                         <button class="btn-form btn btn-success">Borrar</button>
                     </div>
                     <div class="col-md-5">
-                        <button class="btn-form btn btn-success" id="btn-comprar">Resumen</button>
+                        <button  class="btn-form btn btn-success" id="btn-comprar" >Resumen</button>
                     </div>
                 </form>
             </div>

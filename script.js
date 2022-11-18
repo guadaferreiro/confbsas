@@ -1,7 +1,3 @@
-//TRES select DE DESCUENTO 80, 50 Y 15 (40, 100, 170)
-//PRECIO DE LA ENTRADA SIN DESCUENTO 200
-//SUMAR CANTIDAD DE ENTRADAS
-
 
 const compra = document.getElementById ('btn-comprar').addEventListener('click', () => {
     const items = document.getElementById ('categorias').value;
@@ -20,8 +16,7 @@ const compra = document.getElementById ('btn-comprar').addEventListener('click',
     console.log(cantidad);
 
     let valores = document.getElementById ('categorias');
-    let selected = valores.options [valores.selectedIndex].text
-
+    let selected = valores.options [valores.selectedIndex].text;
     console.log(selected);
 
     function descEstudiantes(){

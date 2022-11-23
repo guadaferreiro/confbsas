@@ -75,7 +75,7 @@
             </div>
     
             <div class="container form mb-5">
-                <form class="row g-3 justify-content-center">
+                <form class="row g-3 justify-content-center" id="form">
                     <div class="col-lg-5 col-md-5">
                         <label for="nombre" class="form-label"></label>
                         <input type="text" class="form-control" placeholder="Nombre" id="nombre">
@@ -84,7 +84,7 @@
                         <label for="apellido" class="form-label"></label>
                         <input type="text" class="form-control" id="apellido" placeholder="Apellido">
                     </div>
-                    <div class="col-10">
+                    <div class="col-lg-10 col-md-5">
                         <label for="Email" class="form-label"></label>
                         <input type="email" class="form-control" id="email" placeholder="Correo">
                     </div>
@@ -104,11 +104,15 @@
                     
                     </div>
     
-                    <div class="col-md-5">
-                        <button class="btn-form btn btn-success">Borrar</button>
+
+                    <div class="col-md-5 col-12">
+                        <button type="button" id="btn-comprar" class="col-12 btn btn-success">Resumen</button>
                     </div>
-                    <div class="col-md-5">
-                        <button  class="btn-form btn btn-success" id="btn-comprar" >Resumen</button>
+                    <div class="col-md-5 col-12">
+                        <button type="button" id="btn-borrar" class="col-12 btn btn-light">Borrar</button>
+                    </div>
+
+                    <div class="col-10 text-center fw-semibold" id="total">
                     </div>
                 </form>
             </div>
